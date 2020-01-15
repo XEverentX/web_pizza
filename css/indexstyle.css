@@ -1,0 +1,177 @@
+.heading {
+  margin-right: auto;
+  margin-left: auto;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.image {
+  display: block;
+  max-width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-2 {
+  position: static;
+  display: flex;
+  max-width: 15%;
+  margin-top: 5px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.section {
+  display: inline-block;
+  margin-top: 10px;
+  vertical-align: top;
+}
+
+body {
+  max-width: 100%;
+}
+
+.heading-2 {
+  text-align: center;
+}
+
+.paragraph {
+  text-align: center;
+}
+
+.paragraph-2 {
+  text-align: center;
+}
+
+.heading-3 {
+  text-align: center;
+}
+
+.image-3 {
+  width: 4%;
+  height: 4%;
+  max-width: none;
+  margin-left: 15px;
+  padding-right: 0px;
+}
+
+.image-4 {
+  width: 4%;
+  height: 4%;
+  max-width: none;
+  margin-left: 15px;
+}
+
+.image-5 {
+  width: 4%;
+  height: 4%;
+  max-width: none;
+  margin-left: 15px;
+}
+
+.image-6 {
+  width: 4%;
+  height: 4%;
+  max-width: none;
+  margin-left: 15px;
+  padding-left: 0px;
+}
+
+.div-block {
+  display: flex;
+  padding-right: 15px;
+  justify-content: flex-end;
+  flex-wrap: nowrap;
+  align-content: space-between;
+}
+
+.div-block-2 {
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+.div-block-3 {
+  margin-left: 0px;
+  padding-right: 5px;
+  padding-left: 10px;
+  margin-left: 3.5%;
+  display: inline-block;
+  margin-top: 10px;
+  vertical-align: top;
+}
+
+.div-block-4 {
+  padding: 0px 5px;
+}
+
+.footer {
+  margin-top: 10%;
+  margin-bottom: 0px;
+}
+
+.section-2 {
+  display: flex;
+  margin-top: 10px;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.heading-4 {
+  margin-top: 45px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 55px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.image-7 {
+  width: 100%;
+  height: 100%;
+  max-width: none;
+}
+
+.div-block-5 {
+  position: static;
+  width: 33%;
+  margin-left: 0px;
+  flex: 0 auto;
+}
+
+.div-block-6 {
+  width: 33%;
+  margin-left: 10px;
+}
+
+.div-block-7 {
+  width: 33%;
+}
+
+.paragraph-3 {
+  margin-top: 60px;
+  padding-top: 0px;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.paragraph-4 {
+  margin-top: 20px;
+  font-size: 20px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.paragraph-5 {
+  margin-top: 70px;
+  font-size: 20px;
+  text-align: center;
+}

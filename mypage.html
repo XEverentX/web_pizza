@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Basic Mustache & NodeJS Demo</title>
+    </head>
+
+    <body>
+        <h3>{{name}}</h3>
+        <p>{{price}}</p>
+        <img src = "/img/{{image}}.jpg" width="200px" height="180px">
+        <ul>Ingredients
+        {{#components}}
+            <li>{{ingredient}}</li>
+        {{/components}}
+        </ul>
+        <ul>Optional
+            {{#options}}
+            <li>{{ingredient}}</li>
+            <li>{{price}}</li>
+            {{/options}}
+        </ul>
+    </body>
+</html>
